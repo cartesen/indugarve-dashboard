@@ -1,0 +1,107 @@
+{
+  "name": "Indugarve Germany",
+  "dataColors": [
+    "#0088CC",
+    "#00143C",
+    "#8CA0B4",
+    "#00AAEE",
+    "#004080",
+    "#C0D0E0",
+    "#005599",
+    "#336699"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#00143C",
+  "tableAccent": "#0088CC",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [{ "value": "Segoe UI" }],
+        "fontSize": [{ "value": 11 }],
+        "color": [{ "solid": { "color": "#00143C" } }]
+      }
+    },
+    "card": {
+      "*": {
+        "calloutValue": [{
+          "fontSize": { "value": 22 },
+          "fontFamily": { "value": "Segoe UI" },
+          "color": { "solid": { "color": "#0088CC" } },
+          "fontBold": true
+        }],
+        "label": [{
+          "fontSize": { "value": 11 },
+          "color": { "solid": { "color": "#8CA0B4" } }
+        }],
+        "background": [{
+          "show": true,
+          "color": { "solid": { "color": "#F2F5F9" } },
+          "transparency": 0
+        }],
+        "border": [{
+          "show": true,
+          "color": { "solid": { "color": "#0088CC" } },
+          "radius": 4
+        }]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "dataPoint": [{
+          "defaultColor": { "solid": { "color": "#00143C" } },
+          "showAllDataPoints": true
+        }]
+      }
+    },
+    "barChart": {
+      "*": {
+        "dataPoint": [{
+          "defaultColor": { "solid": { "color": "#00143C" } },
+          "showAllDataPoints": true
+        }]
+      }
+    },
+    "clusteredBarChart": {
+      "*": {
+        "dataPoint": [{
+          "defaultColor": { "solid": { "color": "#00143C" } },
+          "showAllDataPoints": true
+        }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "header": [{
+          "fontColor": { "solid": { "color": "#FFFFFF" } },
+          "backColor": { "solid": { "color": "#00143C" } },
+          "fontSize": { "value": 11 },
+          "fontBold": true
+        }],
+        "rows": [{
+          "fontColor": { "solid": { "color": "#00143C" } },
+          "backColor": { "solid": { "color": "#FFFFFF" } },
+          "altBackColor": { "solid": { "color": "#F2F5F9" } },
+          "fontSize": { "value": 11 }
+        }],
+        "totals": [{
+          "fontColor": { "solid": { "color": "#FFFFFF" } },
+          "backColor": { "solid": { "color": "#0088CC" } },
+          "fontBold": true
+        }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "header": [{
+          "fontColor": { "solid": { "color": "#00143C" } },
+          "fontSize": { "value": 11 },
+          "fontBold": true
+        }],
+        "items": [{
+          "fontColor": { "solid": { "color": "#00143C" } },
+          "fontSize": { "value": 11 }
+        }]
+      }
+    }
+  }
+}
